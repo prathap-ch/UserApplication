@@ -34,10 +34,10 @@ public class UserController {
 	}
 
 	@RequestMapping(value = "/page", method = RequestMethod.GET)
-	public ModelAndView getPage() {
+	public String getPage() {
 		log.info("INSIDE users/page REQUEST");
-		ModelAndView view = new ModelAndView("users");
-		return view;
+		//ModelAndView view = new ModelAndView("users");
+		return "users";
 	}
 	
 	@RequestMapping(value = "/list", method = RequestMethod.POST)
