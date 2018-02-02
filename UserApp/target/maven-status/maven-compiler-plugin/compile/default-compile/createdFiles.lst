@@ -1,0 +1,6 @@
+com\in\daoImpl\UserDaoImpl.class
+com\in\controller\UserController.class
+com\in\service\UsersService.class
+com\in\serviceImpl\UserServiceImpl.class
+com\in\dao\UsersDao.class
+com\in\user\Users.class
